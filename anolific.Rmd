@@ -12,9 +12,9 @@ This is a short script to anonymise the prolific export and psychopy/pavlovia da
 
 It loads the data, uses the {anonymizer} package developed by Paul Hendricks [source](https://github.com/paulhendricks/anonymizer) to salt and hash the IDs and writes the csv files per ID.
 
-```{r setup, include=FALSE}
+```{r setup}
 knitr::opts_chunk$set(echo = TRUE)
-library(anonymizer)
+library(anonymizer) #https://github.com/rhortensius/anolific.git
 library(fs)
 library(tidyverse)
 ```
